@@ -201,3 +201,7 @@ button:hover {
 #fish-count {
     font-size: 1em;
 }
+
+#fish-image {
+    margin-top: 10px;
+}
