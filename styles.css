@@ -41,7 +41,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 30px; /* Adds space between rows */
+    margin-bottom: 40px; /* Increased space between rows */
 }
 
 .game-square {
