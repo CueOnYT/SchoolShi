@@ -35,6 +35,17 @@ button a {
     text-decoration: none;
 }
 
+/* Settings Icon Styling */
+.settings-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Toggle switch */
 .switch {
     position: relative;
     display: inline-block;
