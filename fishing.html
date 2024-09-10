@@ -17,12 +17,13 @@
     </header>
 
     <section class="fishing-game">
-        <p id="message">Cast your line to catch fish!</p>
-        <button onclick="castLine()">Cast Line</button>
-        <p id="fish-count">Fish caught: 0</p>
-        <div id="fish-image" style="display: none;">
-            <img src="fish.png" alt="Caught Fish" width="100">
+        <div id="game-area">
+            <img src="fishing-rod.png" alt="Fishing Rod" id="fishing-rod">
+            <img src="fish.png" alt="Fish" id="fish" style="display: none;">
+            <div id="hook"></div>
         </div>
+        <p id="message">Click to cast the rod and move the hook to catch fish!</p>
+        <p id="fish-count">Fish caught: 0</p>
     </section>
 </body>
 </html>
