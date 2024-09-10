@@ -5,6 +5,7 @@ body {
     color: #333;
     text-align: center;
     padding: 50px;
+    margin: 0;
 }
 
 h1 {
@@ -18,21 +19,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #1a73e8;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button a {
-    color: white;
-    text-decoration: none;
 }
 
 /* Settings Icon Styling */
@@ -217,4 +203,48 @@ button {
 
 #fish-count {
     font-size: 1em;
+}
+
+/* Dictionary styles */
+.dictionary {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#word-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #155a8a;
+}
+
+#definition {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#definition ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#definition li {
+    margin: 5px 0;
 }
